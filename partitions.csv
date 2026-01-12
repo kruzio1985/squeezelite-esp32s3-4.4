@@ -1,0 +1,9 @@
+# Name,   Type, SubType, Offset,   Size, Flags
+# ESP32-S3 N16R8 - 16MB Flash, OTA + RECOVERY
+# nvs=256KB, otadata=8KB, phy=4KB, recovery=1.5MB, ota_0=~12MB, settings=2MB
+nvs,      data, nvs,     0x9000,   0x40000,
+otadata,  data, ota,     0x49000,  0x2000,
+phy_init, data, phy,     0x4B000,  0x1000,
+recovery, app,  factory, 0x50000,  0x180000,
+ota_0,    app,  ota_0,   0x1D0000, 0xC30000,
+settings, data, nvs,     0xE00000, 0x200000,
