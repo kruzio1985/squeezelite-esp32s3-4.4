@@ -1,0 +1,7 @@
+[mapping:cpp]
+archive: libstdc++.a
+entries:
+    if IDF_TARGET = "esp32":
+       * (extram_bss)
+    else:
+       * (default)
