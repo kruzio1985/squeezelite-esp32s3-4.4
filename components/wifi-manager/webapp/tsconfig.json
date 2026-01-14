@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": { 
+      "@/*": [  "src/*"],
+      "@node_modules/*" : ["./node_modules/*"]},
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "target": "es6",
+    "module": "CommonJS",
+    "composite": true,
+//    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports" : true,
+    "esModuleInterop" : true
+
+  },
+  "exclude": [
+    "./node_modules"
+  ]
+}

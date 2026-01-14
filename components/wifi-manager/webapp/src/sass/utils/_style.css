@@ -1,0 +1,24 @@
+
+
+body {
+    min-height: 100vh; 
+  }
+.border-bottom  {
+    border-width:3px !important;
+}
+.xl { font-size: 1.5em; line-height: 1em; vertical-align: -.075em; }
+.border-top {
+    border-width:3px !important;
+}
+tr.hide {
+    display: none;
+}
+.rebooting {
+    display: none;
+}
+td.value {
+    width: 80%;
+}
+#boot-div {
+    float: right;
+}
