@@ -8,16 +8,6 @@
 **Last Updated:** 2026-01-12  
 **Status:** ✅ WORKING
 
-## ⚠️ CRITICAL FILES - DO NOT DELETE!
-
-| File | Why it's critical |
-|------|-------------------|
-| `sdkconfig` | Main config - ESP32-S3, 16MB Flash, PSRAM Octal |
-| `partitions.csv` | 16MB partition layout with ota_0 |
-| `sdkconfig.esp32s3` | Backup of critical settings |
-| `flash_with_env.ps1` | Flashes to ota_0 (0x1D0000) |
-
-**⚠️ WARNING:** `sdkconfig.defaults` is OLD (for ESP32 4MB) - IGNORE IT! Use `sdkconfig` only!
 
 ## 🎵 Features
 
@@ -145,13 +135,6 @@ CONFIG_SPIRAM=y
 CONFIG_SPIRAM_MODE_OCT=y
 CONFIG_SPIRAM_SPEED_40M=y
 ```
-
-## 🌐 Network Configuration
-
-- **WiFi SSID:** SGC (saved in NVS)
-- **IP Address:** 192.168.1.155 (DHCP)
-- **mDNS Name:** squeezelite-141694
-- **LMS Server:** 192.168.1.14:3483
 
 ## 📡 Services Running
 
